@@ -1,0 +1,22 @@
+.center-box {
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  padding: 0;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  /* transition: top .4s, left .4s; */
+  /* background-color: red; */
+}
+
+@media  only screen and (max-width:800px) {
+  .center-box{
+    position: fixed;
+    top:92%;
+    left: 83%;
+    width: 200px;
+    /* background-color: red; */
+
+  }
+
+}

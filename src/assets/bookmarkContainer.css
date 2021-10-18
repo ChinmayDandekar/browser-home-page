@@ -1,0 +1,75 @@
+ul{
+    width: 200px;
+    margin-left:-40px;
+    list-style: none;
+
+}
+
+.bookmark-container{
+    margin: none;
+    /* background-color: red; */
+    width: 300px;
+    height: auto;
+    margin-top: 30px;
+    margin-left:40px;
+}
+
+.bookmark-container h1{
+    color: white;
+}
+
+.bookmark-container h1 button{
+    position: relative;
+    left: 80px;
+    
+  }
+
+.bookmark-container i{
+    color:white;
+
+}
+
+.bookmark-container a{
+    color: white;
+    text-decoration: none;
+}
+
+.bookmarks-list{
+    margin-top: -15px;
+}
+
+.bookmarks-list li{
+    width:235px;
+    position: relative;
+    margin-bottom: 20px;
+    padding:15px 0px;
+    border: 2px white solid;
+    border-radius: 20px;
+}
+
+.bookmarks-list li img{
+    position: relative;
+    top:3px;
+    left: 13px;
+    /* background-color: red; */
+}
+
+.bookmarks-list li a{
+    padding-left:25px;
+    font-weight: 600;
+}
+
+.bookmarks-list li a:hover{
+color: rgb(60, 233, 60);
+
+}
+
+.bookmarks-list li i{
+    position: absolute;
+    right:10px;
+}
+
+.bookmarks-list li i:hover{
+    color: rgb(60, 233, 60);
+    cursor:pointer;
+}

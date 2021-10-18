@@ -1,0 +1,30 @@
+.Time h1 {
+  text-align: center;
+  color: white;
+  font-size: 120px;
+  /* text-shadow: 3px 4px 7px rgb(42, 43, 43); */
+  margin-bottom: -50px;
+  /* transition: font-size .3s; */
+
+}
+
+.Time h2 {
+  text-align: center;
+
+  color: white;
+  font-size: 40px;
+  /* transition: font-size .3s; */
+
+}
+
+
+@media  only screen and (max-width:800px) {
+  .Time h1{
+    font-size: 40px;
+  margin-bottom: -20px;
+
+  }
+  .Time h2{
+    font-size:20px;
+  }
+}

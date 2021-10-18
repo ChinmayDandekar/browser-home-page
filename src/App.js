@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import BkImage from './components/BkImage';
+import BlackBg from './components/BlackBg';
+import CenterBox from './components/CenterBox';
+import BookmarkContainer from './components/BookmarkContainer';
+import TaskContainer from './components/TaskContainer';
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App"  >
+      <BkImage />
+      <BlackBg />
+      <Header />
+      <BookmarkContainer />
+      <CenterBox />
+      <TaskContainer />
     </div>
   );
 }
