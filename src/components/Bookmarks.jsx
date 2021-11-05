@@ -10,7 +10,7 @@ const Bookmarks = ({ bookmarks , onDelete}) => {
             // console.log(bookmarkIcon)
             return <li key={bookmark.id}>
                 <img key={bookmark.id+"img"} src={bookmarkIcon} alt="" width="20" height="20" />
-                <a key={bookmark.id} href={bookmark.url} target="_blank">{bookmark.SiteName}</a>
+                <a key={bookmark.id} href={bookmark.url} >{bookmark.SiteName}</a>
                 <i className="bi bi-trash-fill" onClick={() => onDelete(bookmark.id)}></i>
             </li>;
         })
